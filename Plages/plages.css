@@ -1,0 +1,293 @@
+* {
+    margin:0;
+    padding:0;
+    line-height:23px;
+
+}
+
+.banner {
+    zoom:70%;
+}
+
+.banner img {
+    width: 2727px;
+    height: 1300px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+
+
+.intro_plages {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/*Plages Corbières*/
+
+
+.plage_corbieres {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+
+}
+
+.img_corbieres  {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_corbieres img {
+    width: 500px;
+    height: 300px;
+}
+.description_corbieres h1 {
+    margin-bottom: 20px;
+}
+
+.description_corbieres p {
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+
+.description_corbieres  {
+    margin-right: 100px;
+}
+
+/*Plages Catalans*/
+
+
+.plage_catalans {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+}
+
+.img_catalans  {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_catalans img {
+    width: 500px;
+    height: 300px;
+}
+.description_catalans h1 {
+    margin-bottom: 20px;
+}
+
+.description_catalans p {
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+
+.description_catalans  {
+    margin-right: 100px;
+}
+
+
+/*Plage Malmousque */
+
+
+.plage_malmousque {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+}
+
+.img_malmousque  {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_malmousque img {
+    width: 500px;
+    height: 300px;
+}
+.description_malmousque h1 {
+    margin-bottom: 20px;
+}
+
+.description_malmousque p {
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+
+.description_malmousque  {
+    margin-right: 100px;
+}
+
+section {
+    margin-bottom: 90px;
+
+}
+
+/*Plages Pointe-Rouge*/
+
+.plage_pointerouge {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+
+}
+
+.img_pointerouge  {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_pointerouge {
+    width: 500px;
+    height: 300px;
+}
+.description_pointerouge h1 {
+    margin-bottom: 20px;
+}
+
+.description_pointerouge p {
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+
+.description_pointerouge  {
+    margin-right: 100px;
+}
+
+/*Plages Prophète*/
+
+.plage_prophete {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+
+}
+
+.img_prophete {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_prophete {
+    width: 500px;
+    height: 300px;
+}
+.description_prophete h1 {
+    margin-bottom: 20px;
+}
+
+.description_prophete   p {
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+
+.description_pointerouge  {
+    margin-right: 100px;
+
+}
+
+/*Plages du Prado*/
+
+.plage_prado {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    padding-top: 20px;
+}
+
+.img_prado {
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.img_prado {
+    width: 500px;
+    height: 300px;
+}
+.description_prado h1 {
+    margin-bottom: 20px;
+}
+
+.description_prado   p {
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+
+.description_prado  {
+    margin-right: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all_plages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 90px;
+
+}
