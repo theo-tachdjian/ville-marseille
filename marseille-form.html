@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 	<title>Accueil - Marseille Tourisme</title>
 	<link rel="stylesheet" href="marseille.css">
+	<link rel="stylesheet" href="marseille-form.css">
 	<link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,8 +66,29 @@
 		
 	</header>
 	
-	<main>
-		
+	<main class="form_main">
+		<h1>Formulaire de Contact</h1>
+		<div class="form">
+			<h3>Veuiller remplir ce formulaire et nous vous recontacterons :</h3>
+			<form method="post" action="marseille-form.html" id="form" data-hs-cf-bound="true">
+				<p data-id="email" data-type="input">
+					<label for="email">Email</label>
+					<input type="text" id="email" value="" name="email" data-required_mark="required" data-field_type="input" data-original_id="email" placeholder="robert@example.com">
+				</p>
+				<p data-id="phone" data-type="input">
+					<label for="phone">Numéro de Tél.</label>
+					<input type="text" id="phone" value="" name="phone" data-required_mark="required" data-field_type="input" data-original_id="phone" placeholder="XX XX XX XX XX">
+				</p>
+				<p data-id="message" data-type="text">
+					<label for="message">Message</label>
+					<textarea name="message" data-required_mark="required" data-field_type="text" data-original_id="message" placeholder="Message" rows="7" cols="77"></textarea>
+				</p>
+				<div>
+					<button type="submit" name="submit_button" class="submit_button">Envoyer</button>
+					<p>&nbsp;</p>
+				</div>
+			</form>
+		</div>
 	</main>
 
 	<footer>
