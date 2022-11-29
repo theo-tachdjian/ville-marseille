@@ -1,5 +1,6 @@
 body {
-	margin: auto;
+	margin: auto;   /* centers <body> */
+    font-family: "MetropolitanoRegular";
 	/*font-family: 'AvaraBold';
 	font-weight: normal;
 	font-style: normal;*/
@@ -71,11 +72,6 @@ nav > ul li:hover .sub-menu{
 .menu-container > a::after{
     content:" ▼";
     font-size: 12px;
-}
-
-/* offset next tag to prevent tag offset */
-.blankspace {
-	margin: 30px 20px;
 }
 
 main {
