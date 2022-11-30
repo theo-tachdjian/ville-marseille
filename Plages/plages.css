@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'MetropolitanoRegular';
+    src: url('https://fontlibrary.org//face/metropolitano') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin:0;
     padding:0;
-    line-height:23px;
+    line-height:22px;
+    font-family: MetropolitanoRegular, sans-serif;
 
 }
 
@@ -37,6 +45,23 @@
     padding-top: 20px;
 
 }
+
+.plage_corbieres {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition: ease-in-out 1.2s;
+}
+
+.plage_corbieres:hover {
+    background-color:#F3E575;
+    margin-left: 90px;
+    margin-right: 200px;
+    padding-top:0;
+    padding-bottom: 0;
+    padding-left:0;
+
+}
+
 
 .img_corbieres  {
     display: flex;
@@ -74,6 +99,22 @@
     padding-top: 20px;
 }
 
+
+.plage_catalans {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition: ease-in-out 1.2s;
+}
+
+.plage_catalans:hover {
+    background-color: #F3E575;
+    margin-left: 90px;
+    margin-right: 50px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+
 .img_catalans  {
     display: flex;
     justify-content: right;
@@ -90,7 +131,7 @@
 }
 
 .description_catalans p {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 150px;
 }
 
@@ -111,6 +152,20 @@
     padding-top: 20px;
 }
 
+.plage_malmousque {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition: ease-in-out 1.2s;
+}
+
+.plage_malmousque:hover {
+    background-color: #F3E575 ;
+    margin-left: 90px;
+    margin-right: 70px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
 .img_malmousque  {
     display: flex;
     justify-content: right;
@@ -127,7 +182,7 @@
 }
 
 .description_malmousque p {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 150px;
 }
 
@@ -149,14 +204,29 @@ section {
     max-height: 100%;
     color: black;
     padding-top: 20px;
-
 }
+
+
+.plage_pointerouge {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition: ease-in-out 1s;
+}
+
+.plage_pointerouge:hover {
+    background-color: #F3E575 ;
+    margin-left: 90px;
+    margin-right: 120px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
 
 .img_pointerouge  {
     display: flex;
     justify-content: right;
     margin-left: 100px;
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 .img_pointerouge {
@@ -168,11 +238,10 @@ section {
 }
 
 .description_pointerouge p {
-    margin-top: 20px;
-    margin-right: 150px;
+    margin-top: 10px;
+    margin-right: 100px;
 
 }
-
 
 .description_pointerouge  {
     margin-right: 100px;
@@ -186,7 +255,19 @@ section {
     max-height: 100%;
     color: black;
     padding-top: 20px;
+}
 
+.plage_prophete {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition: ease-in-out 1.2s;
+}
+
+.plage_prophete:hover {
+    background-color: #F3E575 ;
+    margin-left: 90px;
+    margin-right: 230px;
+    padding-top: 0;
 }
 
 .img_prophete {
@@ -205,8 +286,8 @@ section {
 }
 
 .description_prophete   p {
-    margin-top: 20px;
-    margin-right: 150px;
+    margin-top: 40px;
+    margin-right: 100px;
 
 }
 
@@ -224,6 +305,20 @@ section {
     max-height: 100%;
     color: black;
     padding-top: 20px;
+}
+
+.plage_prado {
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition: ease-in-out 1.2s;
+}
+
+.plage_prado:hover {
+    background-color: #F3E575 ;
+    margin-left: 90px;
+    margin-right: 170px;
+    padding-top:0;
+    padding-bottom: 1px;
 }
 
 .img_prado {
