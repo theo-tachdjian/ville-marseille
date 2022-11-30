@@ -1,0 +1,69 @@
+
+
+.banner {
+    zoom:70%;
+}
+
+.banner img {
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+
+
+.intro_plages {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/*Plages Corbières*/
+
+
+.plage_corbieres,.plage_catalans,.plage_malmousque,.plage_pointerouge,.plage_prophete,.plage_prado{
+    display: flex;
+    color: black;
+    padding-top: 20px;
+    background-color: #f5f1cf;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.plage_corbieres,.plage_catalans,.plage_malmousque,.plage_pointerouge,.plage_prophete,.plage_prado {
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.plage_corbieres:hover,.plage_catalans:hover,.plage_malmousque:hover,.plage_pointerouge:hover,.plage_prophete:hover,.plage_prado:hover {
+    background-color: #fadd8c;
+    
+
+}
+
+.description_corbieres,.description_catalans,.description_malmousque,.description_pointerouge,.description_prado,.description_prophete{
+    margin-right: 30px;
+}
+
+.img_corbieres img,.img_catalans img,.img_malmousque img,.img_pointerouge img,.img_prophete img,.img_prado img{
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.all_plages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 90px;
+
+}

@@ -1,0 +1,36 @@
+/* main */
+
+.mainimg{
+    margin-left: 150px;
+}
+
+.title{
+    margin-left: 850px;
+    font-size: 150%;
+    margin-top: 50px;
+    font-family: 'MetropolitanoRegular';
+}
+
+.en-vau,.sugiton,.callelongue,.marseilleveyre,.morgiou,.sormiou{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 1000px;
+    justify-content: center;
+    font-family: 'MetropolitanoRegular';
+    background-color: whitesmoke;
+    transition-property: background-color;
+    transition-duration: 2s;
+    height: 300px;
+}
+
+.text1,.text2,.text3,.text4,.text5,.text6{
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.en-vau:hover,.sugiton:hover,.morgiou:hover,.sormiou:hover,.callelongue:hover,.marseilleveyre:hover{
+    background-color: rgb(176, 230, 212);
+}
+
+/* fin main */

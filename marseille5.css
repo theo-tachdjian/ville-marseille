@@ -1,0 +1,58 @@
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order1,.order2,.order3,.order4,.order5,.order6{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgb(226, 225, 225);
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    height: 500px;
+}
+
+.order1:hover,.order2:hover,.order3:hover,.order4:hover,.order5:hover,.order6:hover{
+    background-color: grey;
+}
+.mucemti,.mhti,.mhnti,.mbati,.mamti,.mmti{
+    margin-left: 50px;
+}
+
+
+.mucemte,.mhte,.mhnte,.mbate,.mamte,.mmte{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+.titre{
+    margin-left: 90px;
+}
+
+section.top-page{
+    background: url("assets/museum/mucem.gif");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+
+.osef{
+    margin-top: 50px;
+}
+
+.big-title{
+    background-color: white; 
+    border-radius: 10px; 
+    padding-left: 50px; 
+    width: 700px;
+    font-size: 60px;
+    margin-top: 300px;
+}

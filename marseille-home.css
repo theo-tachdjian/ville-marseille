@@ -1,0 +1,67 @@
+.flex_downwards {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    align-items: center;
+    justify-content: center;
+
+	background: rgb(182,227,255);
+	background: linear-gradient(0deg, rgba(182,227,255,1) 35%, rgba(199,250,255,1) 100%); 
+}
+
+.flex_downwards > div {
+	border-bottom: 1px solid #8fcbf0;
+	border-top: 1px solid #8fcbf0;
+}
+
+.c_places {
+	width: 100%;
+	background-image: url('assets/home/bg_places.jpg');
+	background-size: cover;
+}
+
+.c_beach {
+	width: 100%;
+	background-image: url('assets/home/bg_beach.jpg');
+	background-size: cover;
+}
+
+.c_walk {
+	width: 100%;
+	background-image: url('assets/home/bg_trek.jpg');
+	background-size: cover;
+}
+
+section {
+	overflow: hidden;
+	margin-bottom: 32px;
+	width: 20vw;
+	border-radius: 0.6em;
+	background-color: whitesmoke;
+	box-shadow: 1px 1px 3px 1px gray;
+	transition-property: box-shadow;
+	transition-duration: 0.1s;
+}
+
+.clickable_content {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.clickable_content:link { text-decoration: none; color: black; }
+.clickable_content:visited { text-decoration: none; color: black; }
+.clickable_content:hover { text-decoration: none; color: black; }
+.clickable_content:active { text-decoration: none; color: black; }
+
+section:hover {
+	box-shadow: 2px 2px 4px 2px gray;
+}
+
+.section_container {
+	display: flex;
+	flex-direction: row;
+	gap: 8vw;
+	justify-content: center;
+}
