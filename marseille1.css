@@ -1,0 +1,35 @@
+.fond{
+    margin-left: 170px;
+}
+
+.title{
+    font-size: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.massalia,.cafe,.peste,.sardine,.canal,.om{
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgb(243, 216, 181);
+    transition-property: background-color;
+    transition-duration: 2s;
+    margin-top: 50px;
+}
+
+.massalia:hover,.cafe:hover,.peste:hover,.sardine:hover,.canal:hover,.om:hover{
+    background-color: burlywood;
+}
+.text{
+    margin-left: 10px;
+    margin-right: 200px;
+}
+
+.img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
